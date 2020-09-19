@@ -2,9 +2,9 @@ import pymongo
 import requests
 import json
 import xlrd
-from collections import MutableMapping
 import smtplib
 import email.message
+from collections import MutableMapping
 server = smtplib.SMTP('smtp.gmail.com:587')
 
 
