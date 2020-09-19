@@ -95,5 +95,5 @@ msg.set_payload(contents)                             #TABULATION IN BODY OF THE
 s = smtplib.SMTP('smtp.gmail.com: 587')
 s.starttls()
 s.login(msg['From'], password)                        #LOGIN CREDENTIALS FOR SENDING THE MAIL 
-s.sendmail(msg['From'], [msg['To']], msg.as_string())
+s.sendmail(msg['From'], [msg['To']], msg.as_string()) #EMAIL SENT SUCCESSFULLY
     
